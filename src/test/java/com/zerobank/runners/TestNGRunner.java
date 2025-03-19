@@ -35,7 +35,7 @@ public class TestNGRunner extends AbstractTestNGCucumberTests{
 	
 	@BeforeTest
 	@Parameters({"browser","url"})
-	public void setUp(@Optional("edge")String browserParam , @Optional("http://zero.webappsecurity.com/")String urlParam) {
+	public void setUp(@Optional("chrome")String browserParam , @Optional("http://zero.webappsecurity.com/")String urlParam) {
 		
 		browser = browserParam;
 		appUrl = urlParam;

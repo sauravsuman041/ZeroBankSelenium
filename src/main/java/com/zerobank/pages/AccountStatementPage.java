@@ -3,6 +3,8 @@ package com.zerobank.pages;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,7 +61,7 @@ public class AccountStatementPage extends BasePage {
         String downloadPath = System.getProperty("user.home") + "/Downloads/" + fileName;
         Path path = Paths.get(downloadPath);
         try {
-            Thread.sleep(2000);
+            wait.withTimeout(Duration.ofSeconds(30));
             return Files.exists(path);
         } catch (Exception e) {
             e.printStackTrace();

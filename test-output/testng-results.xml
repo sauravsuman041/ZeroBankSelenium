@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="12" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T23:46:21 IST" name="Suite" finished-at="2025-03-18T23:50:19 IST" duration-ms="237983">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-18T23:46:21 IST" name="Test" finished-at="2025-03-18T23:50:19 IST" duration-ms="237983">
+      <class name="com.zerobank.runners.TestNGRunner">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:46:21 IST" name="setUp" finished-at="2025-03-18T23:46:21 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:46:22 IST" name="setUpClass" finished-at="2025-03-18T23:46:23 IST" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4de93edd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:46:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:46:40 IST" duration-ms="17361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Zero Bank"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:46:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:46:51 IST" duration-ms="10313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Zero Bank"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:46:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:47:00 IST" duration-ms="9037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Missing Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Zero Bank"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:47:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:47:13 IST" duration-ms="13237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account Summary Page Loads Correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify the correctness of account details displayed"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:47:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:47:29 IST" duration-ms="15881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Account Types"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify the correctness of account details displayed"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:47:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:47:45 IST" duration-ms="16160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Fund Transfer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify that funds can be transferred between accounts."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:47:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:47:58 IST" duration-ms="12932" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fund Transfer with Insufficient Balance"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify that funds can be transferred between accounts."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed expected [Insufficient Balance.] but found [You successfully submitted your transaction.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed expected [Insufficient Balance.] but found [You successfully submitted your transaction.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.zerobank.steps.FundTransferStepDefinition.error_should_be_displayed(FundTransferStepDefinition.java:127)
+at ✽.Error "Insufficient Balance." should be displayed(file:///C:/Users/saura/OneDrive/Desktop/Wipro_Testing_Training/Project_Workspace/ZeroBank_Capstone_Project/src/test/resources/features/03_FundTransfer.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:47:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:48:13 IST" duration-ms="14914" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fund Transfer with Negative Amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify that funds can be transferred between accounts."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed expected [Invalid Amount.] but found [You successfully submitted your transaction.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed expected [Invalid Amount.] but found [You successfully submitted your transaction.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.zerobank.steps.FundTransferStepDefinition.error_should_be_displayed(FundTransferStepDefinition.java:127)
+at ✽.Error "Invalid Amount." should be displayed(file:///C:/Users/saura/OneDrive/Desktop/Wipro_Testing_Training/Project_Workspace/ZeroBank_Capstone_Project/src/test/resources/features/03_FundTransfer.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:48:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:48:28 IST" duration-ms="14820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Bill Payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify bill payment functionalities."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:48:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:48:47 IST" duration-ms="19377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Bill Payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify bill payment functionalities."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:48:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:49:02 IST" duration-ms="15287" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Missing Amount Bill Payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify bill payment functionalities."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed expected [Amount field cannot be empty.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed expected [Amount field cannot be empty.] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.zerobank.steps.PayBillsStepDefinition.user_can_see_the_error(PayBillsStepDefinition.java:65)
+at ✽.User can see the error "Amount field cannot be empty."(file:///C:/Users/saura/OneDrive/Desktop/Wipro_Testing_Training/Project_Workspace/ZeroBank_Capstone_Project/src/test/resources/features/04_PayBills.feature:23)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:49:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:49:20 IST" duration-ms="17695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully Add a New Payee"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify adding a new payee functionality."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:49:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:49:35 IST" duration-ms="15189" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Payee with Missing Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify adding a new payee functionality."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed expected [All fields are required.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed expected [All fields are required.] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.zerobank.steps.AddPayeeStepDefinition.user_can_see_the_error_meesage(AddPayeeStepDefinition.java:63)
+at ✽.User can see the error meesage "All fields are required."(file:///C:/Users/saura/OneDrive/Desktop/Wipro_Testing_Training/Project_Workspace/ZeroBank_Capstone_Project/src/test/resources/features/05_AddPayee.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:49:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:49:53 IST" duration-ms="17916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Download Account Statement"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify that account statements can be downloaded."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:49:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:50:06 IST" duration-ms="12757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout Successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[": Ensure users can log out securely."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:50:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-18T23:50:19 IST" duration-ms="13444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Session Expiry After Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[": Ensure users can log out securely."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.zerobank.runners.TestNGRunner@ed7f8b4]" started-at="2025-03-18T23:50:19 IST" name="tearDownClass" finished-at="2025-03-18T23:50:19 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.zerobank.runners.TestNGRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

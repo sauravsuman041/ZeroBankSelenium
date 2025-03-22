@@ -47,9 +47,12 @@ public class AccountStatementPage extends BasePage {
 	
 	//@FindBy(xpath = "//a[text()='" + targetDay + "']")
 	
-	public void selectYear(Integer year) {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='" + year.toString() + "']")));
-		webDriver.findElement(By.xpath("//a[text()='" + year.toString() + "']")).click();
+	public void selectYear(Double int1) {
+		double a = int1;
+		int target = (int) a;
+		//Integer target = Integer.parseInt(int1.toString());
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='" + target + "']")));
+		webDriver.findElement(By.xpath("//a[text()='" + target + "']")).click();
 	}
 	
 	public void downloadPDF(String pdf) {

@@ -11,5 +11,5 @@ Feature: Verify that account statements can be downloaded.
     Then the pdf "<PDF Name>" should be downloaded successfully
 
     Examples: 
-      | Account | Year | PDF                     | PDF Name             |
-      | Savings | 2010 | Statement 01/12/10(57K) | 8534567-05-12-11.pdf |
+      | Account | Year | PDF | PDF Name |  
+      | Savings | 2010.0 | Statement 01/12/10(57K) | 8534567-05-12-11.pdf |  

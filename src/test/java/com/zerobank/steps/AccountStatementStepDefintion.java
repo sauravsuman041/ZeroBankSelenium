@@ -21,8 +21,8 @@ public class AccountStatementStepDefintion {
 	    page.goToOnlineStatementPage();
 	}
 
-	@When("selects an account {string} and year {int}")
-	public void selects_an_account_year_and_a_pdf_to_download(String string, Integer int1) {
+	@When("selects an account {string} and year {double}")
+	public void selects_an_account_year_and_a_pdf_to_download(String string, Double int1) {
 	    page.selectAccount(string);
 	    page.selectYear(int1);
 	}
